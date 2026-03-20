@@ -24,6 +24,15 @@ Kraken2 was used to classify sequencing reads against the standard Kraken2 datab
 
 To improve abundance estimation, Bracken was applied to Kraken2 output to re-estimate species level abundances using Bayesian models of k-mer distribution (Lu et al., 2017). Parameters were set to read length 150 bp and taxonomic level S for species. Bracken reports generated were combined into a single BIOM format file using kraken-biom (v. 1.2.0). This BIOM file was then imported into R for further analysis.
 
-### R Analysis
+### Import into R
 
-The BIOM file was imported into R using the biomformat (v. 1.36.0) package and converted into a phyloseq object using phyloseq (v. 1.520) (McMurdie and Holmes, 2013). Sample metadata such as diet information was manually added to the phyloseq object. Low abundance taxa were filtered to reduce noise and improve downstream statistical analyses and data was transformed into relative abundances for normalization in order to make proper comparisons. 
+The BIOM file was imported into R using the biomformat (v. 1.36.0) package and converted into a phyloseq object using phyloseq (v. 1.520) (McMurdie and Holmes, 2013). Sample metadata such as diet information was manually added to the phyloseq object. Low abundance taxa were filtered to reduce noise and improve downstream statistical analyses and data was transformed into relative abundances for normalization in order to make proper comparisons. Rarefaction curves were generated using the rarecurve function from the vegan package to assess sampling depth.
+
+### Diversity analysis
+
+Alpha diversity metrics, including Shannon and Simpson indices, were calculated using the plot_richness function from phyloseq to compare sample diversity within dietary groups. Beta diversity was assessed using Bray-Curtis dissimilarity and Jaccard distance metrics, calculated using the vegan package (Oksanen et al., 2026). Principal Coordinates Analysis and Non-metric Multidimensional Scaling were used to depict differences in microbial community composition between samples.
+
+### Differential abundance testing
+
+Differential abundance analysis was conducted using ANCOMBC2 (v. 2.13.1), which accounts for compositional bias and unequal sampling fractions in microbiome data (Lin and Peddada, 2023). Genus abundances were tested for differences between vegan and omnivore groups using a fixed effects model with diet as the main variable. Taxa were considered significantly differentially abundant if they met a threshold of adjusted p value < 0.05.
+ 
