@@ -35,4 +35,13 @@ Alpha diversity metrics, including Shannon and Simpson indices, were calculated 
 ### Differential abundance testing
 
 Differential abundance analysis was conducted using ANCOMBC2 (v. 2.13.1), which accounts for compositional bias and unequal sampling fractions in microbiome data (Lin and Peddada, 2023). Genus abundances were tested for differences between vegan and omnivore groups using a fixed effects model with diet as the main variable. Taxa were considered significantly differentially abundant if they met a threshold of adjusted p value < 0.05.
+
+## Results:
+
+Rarefaction curves for all six samples reached a plateau which indicated that sequencing depth was sufficient for this data and therefore suggesting that the majority of microbial diversity present in each sample was captured. This confirms that the data contains enough information for further analysis.
+
+When datasets were compared at the phylum level for vegan and omnivore groups the microbial composition observed was similar. All six samples were largely composed of members of the phylum Bacteroidota, with Bacillotia also consistently represented in the relative abundance. The level of Verrucomicrobiota in sample SRR8146974 was notably higher than all other samples, suggesting a potential outlier within the data. Consistent separation was not seen between diets at this taxonomic level. 
+
+Analysis performed at the Genus level showcased more distinct differences between dietary groups. Omnivorous samples showed consistently high relative abundance of Segatella in all three samples, whereas vegan samples contained a higher abundance of Alistipes in one sample and Bacteroides in two samples. To confirm that these patterns were not biased by selecting the top taxa across all samples, genus level composition was also visualized using the top 10 taxa within each individual sample which produced similar result patterns and supported the differences observed between dietary groups at this level.
+
  
