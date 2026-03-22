@@ -43,6 +43,7 @@ Differential abundance analysis was conducted using ANCOMBC2 (v. 2.13.1), which 
 ![pic1](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/rarecurve.png)
 
 </div>
+
 ##### Figure #1:
 
 
