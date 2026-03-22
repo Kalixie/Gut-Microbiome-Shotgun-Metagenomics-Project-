@@ -38,19 +38,57 @@ Differential abundance analysis was conducted using ANCOMBC2 (v. 2.13.1), which 
 
 ## Results:
 
+<div align="center">
+
+![pic1](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/rarecurve.png)
+
+</div>
+
 Rarefaction curves for all six samples reached a plateau which indicated that sequencing depth was sufficient for this data and therefore suggesting that the majority of microbial diversity present in each sample was captured. This confirms that the data contains enough information for further analysis.
 
 <div align="center">
 
-![rarecurve](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/rarecurve.png)
+![pic2](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/RA1Phy.png)
 
 </div>
 
-When datasets were compared at the phylum level for vegan and omnivore groups the microbial composition observed was similar. All six samples were largely composed of members of the phylum Bacteroidota, with Bacillotia also consistently represented in the relative abundance. The level of Verrucomicrobiota in sample SRR8146974 was notably higher than all other samples, suggesting a potential outlier within the data. Consistent separation was not seen between diets at this taxonomic level. 
+When datasets were compared at the phylum level for vegan and omnivore groups, the microbial composition observed was similar. All six samples were largely composed of members of the phylum Bacteroidota, with Bacillotia also consistently represented in the relative abundance. The level of Verrucomicrobiota in sample SRR8146974 was notably higher than all other samples, suggesting a potential outlier within the data. Consistent separation was not seen between diets at this taxonomic level. 
+
+<div align="center">
+
+![pic3](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/RA3GenusAv10.png)
+
+</div>
 
 Analysis performed at the Genus level showcased more distinct differences between dietary groups. Omnivorous samples showed consistently high relative abundance of Segatella in all three samples, whereas vegan samples contained a higher abundance of Alistipes in one sample and Bacteroides in two samples. To confirm that these patterns were not biased by selecting the top taxa across all samples, genus level composition was also visualized using the top 10 taxa within each individual sample which produced similar result patterns and supported the differences observed between dietary groups at this level.
 
-Alpha diversity metrics showed variability within both dietary groups with no consistent trend indicating higher diversity in the vegan and omnivore groups. Vegan samples exhibited slightly higher diversity values than the small sample size with both Shannon and Simpson indices. Beta diversity analyses revealed partial separation between dietary groups. Bray-Curtis PCoA showed some distinction between vegan and omnivorous samples, although one vegan sample appeared as an outlier. Bray-Curtis NMDS distances showed weaker clustering and greater overlap between groups. Jaccard PCoA demonstrated moderate clustering by diet with one vegan sample deviating from the group. 
+<div align="center">
+
+![pic4](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/Alphadiv.png)
+
+</div>
+
+Alpha diversity metrics showed variability within both dietary groups with no consistent trend indicating higher diversity in the vegan and omnivore groups. Vegan samples exhibited slightly higher diversity values than the small sample size with both Shannon and Simpson indices. 
+
+<div align="center">
+
+![pic5](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/BrayPCoA.png)
+
+</div>
+
+<div align="center">
+
+![pic6](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/JacPCoA.png)
+
+</div>
+
+Beta diversity analyses revealed partial separation between dietary groups. Bray-Curtis PCoA showed some distinction between vegan and omnivorous samples, although one vegan sample appeared as an outlier. Bray-Curtis NMDS distances showed weaker clustering and greater overlap between groups. Jaccard PCoA demonstrated moderate clustering by diet with one vegan sample deviating from the group. 
+
+<div align="center">
+
+![pic7](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/ancombctop.png)
+
+</div>
 
 PERMANOVA analysis using Bray-Curtis distances showcased that diet explained approximately 35.8% of the variation in microbial composition, although this effect was not statistically significant. Differential abundance testing using ANCOM-BC identified no genera that were significantly different between vegan and omnivorous groups after multiple testing correction. 
 
