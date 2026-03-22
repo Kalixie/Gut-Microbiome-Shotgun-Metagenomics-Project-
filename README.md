@@ -72,13 +72,7 @@ Alpha diversity metrics showed variability within both dietary groups with no co
 
 <div align="center">
 
-![pic5](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/BrayPCoA.png)
-
-</div>
-
-<div align="center">
-
-![pic6](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/JacPCoA.png)
+![pic5](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/betadiversity.png)
 
 </div>
 
@@ -86,7 +80,7 @@ Beta diversity analyses revealed partial separation between dietary groups. Bray
 
 <div align="center">
 
-![pic7](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/ancombctop.png)
+![pic6](https://github.com/Kalixie/Gut-Microbiome-Shotgun-Metagenomics-Project-/blob/main/figures/ancombctop.png)
 
 </div>
 
