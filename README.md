@@ -86,6 +86,8 @@ Beta diversity analyses revealed partial separation between dietary groups. Bray
 
 PERMANOVA analysis using Bray-Curtis distances showcased that diet explained approximately 35.8% of the variation in microbial composition, although this effect was not statistically significant. Differential abundance testing using ANCOM-BC identified no genera that were significantly different between vegan and omnivorous groups after multiple testing correction. 
 
+## Discussion
+
 
 
  
