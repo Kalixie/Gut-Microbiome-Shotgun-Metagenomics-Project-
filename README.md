@@ -118,6 +118,8 @@ Overall, while some microbiota differences were observed visually through abunda
 
 Al-Refai, W., Keenan, S., Camera, D. M., & Cooke, M. B. (2025). The Influence of Vegan, Vegetarian, and Omnivorous Diets on Protein Metabolism: A Role for the Gut-Muscle Axis?. Nutrients, 17(7), 1142. https://doi.org/10.3390/nu17071142
 
+Andrews, S. (2010). FastQC: A Quality Control Tool for High Throughput Sequence Data [Computer software]. Babraham Bioinformatics. http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+
 Arumugam, M., Raes, J., Pelletier, E., Le Paslier, D., Yamada, T., Mende, D. R., Fernandes, G. R., Tap, J., Bruls, T., Batto, J. M., Bertalan, M., Borruel, N., Casellas, F., Fernandez, L., Gautier, L., Hansen, T., Hattori, M., Hayashi, T., Kleerebezem, M., Kurokawa, K., … Bork, P. (2011). Enterotypes of the human gut microbiome. Nature, 473(7346), 174–180. https://doi.org/10.1038/nature09944
 
 Daley SF, Hinson MR. Mediterranean Diet. [Updated 2026 Jan 10]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK557733/
@@ -137,6 +139,8 @@ Lu, J., Breitwieser, F. P., Thielen, P., & Salzberg, S. L. (2017). Bracken: esti
 McMurdie, P. J., & Holmes, S. (2013). phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data. PloS one, 8(4), e61217. https://doi.org/10.1371/journal.pone.0061217
 
 Muñoz-Yáñez, C., Méndez-Hernández, A., González-Galarza, F. F., Prieto-Hinojosa, A. I., & Guangorena-Gómez, J. O. (2025). Diet Quality Modulates Gut Microbiota Structure in Blastocystis-Colonised Individuals from Two Distinct Cohorts with Contrasting Sociodemographic Profiles. Microorganisms, 13(8), 1949. https://doi.org/10.3390/microorganisms13081949
+
+National Center for Biotechnology Information (NCBI). (2026). SRA Toolkit. GitHub. https://github.com/ncbi/sra-tools
 
 Oksanen, J., Simpson, G. L., Blanchet, F. G., Kindt, R., Legendre, P., Minchin, P. R., ... & Wagner, H. (2025). vegan: Community Ecology Package (Version 2.8-0) [Software]. https://cran.r-project.org/web/packages/vegan/index.html
 
