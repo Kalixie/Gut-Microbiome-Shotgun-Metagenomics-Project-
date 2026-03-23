@@ -211,10 +211,7 @@ ggplot(ancombc.out$res, aes(x = lfc_DietVegan, y = reorder(taxon, lfc_DietVegan)
   )) +
   geom_vline(xintercept = 0, color = "red") +
   scale_color_manual(values = c("FALSE" = "grey", "TRUE" = "blue")) +
-  labs(
-    x = "Log Fold Change (Vegan vs Omnivore)", y = "Genus",
-    color = "Significant (q<0.05)"
-  )
+  labs(x = "Log Fold Change (Vegan vs Omnivore)", y = "Genus", color = "Significant (q<0.05)")
 
 # Top effect sizes
 
@@ -224,23 +221,10 @@ top_taxa <- res %>%
   arrange(desc(abs(lfc_DietVegan))) %>%
   slice(1:15)
 
-ggplot(
-  top_taxa,
-  aes(
-    x = lfc_DietVegan,
-    y = reorder(taxon, lfc_DietVegan)
-  )
-) +
+ggplot(top_taxa, aes(x = lfc_DietVegan, y = reorder(taxon, lfc_DietVegan))) +
   geom_point(aes(color = q_DietVegan < 0.05), size = 3) +
-  geom_errorbar(aes(
-    xmin = lfc_DietVegan - se_DietVegan,
-    xmax = lfc_DietVegan + se_DietVegan
-  )) +
+  geom_errorbar(aes(xmin = lfc_DietVegan - se_DietVegan, xmax = lfc_DietVegan + se_DietVegan)) +
   geom_vline(xintercept = 0, color = "red") +
   scale_color_manual(values = c("FALSE" = "grey", "TRUE" = "blue")) +
-  labs(
-    x = "Log Fold Change (Vegan vs Omnivore)",
-    y = "Genus",
-    color = "Significant (q<0.05)"
-  ) +
+  labs(x = "Log Fold Change (Vegan vs Omnivore)", y = "Genus", color = "Significant (q<0.05)") +
   theme_bw()
