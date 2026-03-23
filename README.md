@@ -55,7 +55,7 @@ Rarefaction curves for all six samples reached a plateau which indicated that se
 
 </div>
 
-##### Figure #2:
+##### Figure #2: Relative abundance of microbial communities at the phylum level across all samples for omnivore and vegan diets. Each bar represents an individual sample with taxa aggregated at the phylum level and displayed as proportions.
 
 When datasets were compared at the phylum level for vegan and omnivore groups, the microbial composition observed was similar. All six samples were largely composed of members of the phylum Bacteroidota, with Bacillotia also consistently represented in the relative abundance. The level of Verrucomicrobiota in sample SRR8146974 was notably higher than all other samples, suggesting a potential outlier within the data. Consistent separation was not seen between diets at this taxonomic level. 
 
@@ -65,7 +65,7 @@ When datasets were compared at the phylum level for vegan and omnivore groups, t
 
 </div>
 
-##### Figure #3:
+##### Figure #3: Relative abundance of the top 10 most abundant genera across all samples for omnivore and vegan diets. The remaining genera are grouped as 'Other'. Each bar represents an individual sample aggregated at the genus level and displayed as proportions.
 
 Analysis performed at the Genus level showcased more distinct differences between dietary groups. Omnivorous samples showed consistently high relative abundance of Segatella in all three samples, whereas vegan samples contained a higher abundance of Alistipes in one sample and Bacteroides in two samples. To confirm that these patterns were not biased by selecting the top taxa across all samples, genus level composition was also visualized using the top 10 taxa within each individual sample which produced similar result patterns and supported the differences observed between dietary groups at this level.
 
@@ -75,7 +75,7 @@ Analysis performed at the Genus level showcased more distinct differences betwee
 
 </div>
 
-##### Figure #4: 
+##### Figure #4: Alpha diversity of microbial communities measured using Shannon and Simpson indices across dietary groups. Each point represents an individual sample.
 
 Alpha diversity metrics showed variability within both dietary groups with no consistent trend indicating higher diversity in the vegan and omnivore groups. Vegan samples exhibited slightly higher diversity values than the small sample size with both Shannon and Simpson indices. 
 
@@ -85,7 +85,7 @@ Alpha diversity metrics showed variability within both dietary groups with no co
 
 </div>
 
-##### Figure #5:
+##### Figure #5: Principal coordinates analysis (PCoA) of microbial community composition using Bray-Curtis (left) and Jaccard (right) distance metrics. Points represent individual samples colored by diet with included legends.
 
 Beta diversity analyses revealed partial separation between dietary groups. Bray-Curtis PCoA showed some distinction between vegan and omnivorous samples, although one vegan sample appeared as an outlier. Bray-Curtis NMDS distances showed weaker clustering and greater overlap between groups. Jaccard PCoA demonstrated moderate clustering by diet with one vegan sample deviating from the group. 
 
@@ -95,7 +95,7 @@ Beta diversity analyses revealed partial separation between dietary groups. Bray
 
 </div>
 
-##### Figure #6:
+##### Figure #6: Top 15 genera ranked by absolute log fold change between dietary groups from ANCOMBC analysis. Points represent estimated differences in abundance, with error bars indicating standard errors. No taxa were statistically significant after multiple testing correction.
 
 PERMANOVA analysis using Bray-Curtis distances showcased that diet explained approximately 35.8% of the variation in microbial composition, although this effect was not statistically significant. Differential abundance testing using ANCOM-BC identified no genera that were significantly different between vegan and omnivorous groups after multiple testing correction. 
 
