@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Through the use of publicly available human gut microbiome sequencing data, this study aimed to investigate differences in gut microbial composition between individuals with vegan and omnivorous diets. Vegan diets are typically more high in fiber, while omnivore diets are higher in protein and fats. These differences throughout long-term dietary patterns, such as veganism or an omnivore diet can alter the diversity and function of the gut microbiome (Zhang, 2022).  Specific microbes have been shown to correlate with human health outcomes and further research into the differences between specific diets can benefit nutritional studies (Fackelmann et al., 2025). 
+Through the use of publicly available human gut microbiome sequencing data, this study aimed to investigate differences in gut microbial composition between individuals with vegan and omnivorous diets. Vegan diets are typically more high in fiber, while omnivore diets are higher in protein and fats (Łuszczki et al., 2023). These differences throughout long-term dietary patterns, can alter the diversity and function of the gut microbiome (Zhang, 2022). Specific microbes have been shown to correlate with human health outcomes and further research into the differences between specific diets can benefit nutritional studies (Fackelmann et al., 2025). 
 
-The data used in this study was collected from the National Center for Biotechnology Information. All collected samples were from subjects based in Turin, Italy for consistency, with human reads already removed from microbiome data. Three omnivore samples and three vegan samples were used for analysis.
+The data used in this study was collected from the National Center for Biotechnology Information. All collected samples were from subjects based in Turin, Italy for consistency, with human reads already removed from microbiome data. Three omnivore samples (SRR8146971, SRR8146969, SRR8146936) and three vegan samples (SRR8146978, SRR8146977, SRR8146974) were used for analysis.
 
 The data collected was used to perform a shotgun metagenomic analysis. Taxonomic classification was performed using Kraken2 with Bracken used to further reestimate abundance levels allowing for corrections. Kraken was chosen due to its wide use in taxonomic classification studies, as well as the availability of datasets for analysis. Previous studies have also found Kracken2 and Bracken to be efficient for microbial analysis in comparison to alternatives such as Diamond and Megan (Xu et al., 2023)
 
@@ -129,6 +129,8 @@ Johnson, E. L., Heaver, S. L., Walters, W. A., & Ley, R. E. (2017). Microbiome a
 Kumar, S., Mukherjee, R., Gaur, P., Leal, É., Lyu, X., Ahmad, S., Puri, P., Chang, C. M., Raj, V. S., & Pandey, R. P. (2025). Unveiling roles of beneficial gut bacteria and optimal diets for health. Frontiers in microbiology, 16, 1527755. https://doi.org/10.3389/fmicb.2025.1527755
 
 Lin, H., & Peddada, S. D. (2023). Multi-group Analysis of Compositions of Microbiomes with Covariate Adjustments and Repeated Measures. Research square, rs.3.rs-2778207. https://doi.org/10.21203/rs.3.rs-2778207/v1
+
+Łuszczki, E., Boakye, F., Zielińska, M., Dereń, K., Bartosiewicz, A., Oleksy, Ł., & Stolarczyk, A. (2023). Vegan diet: nutritional components, implementation, and effects on adults' health. Frontiers in nutrition, 10, 1294497. https://doi.org/10.3389/fnut.2023.1294497
 
 Lu, J., Breitwieser, F. P., Thielen, P., & Salzberg, S. L. (2017). Bracken: estimating species abundance in metagenomics data. PeerJ. Computer science, 3, e104. https://doi.org/10.7717/peerj-cs.104
 
