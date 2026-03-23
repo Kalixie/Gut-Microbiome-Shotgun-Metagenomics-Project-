@@ -14,15 +14,15 @@ Downstream analysis was conducted in R using the phyloseq package which allowed 
 
 ### Data acquisition and preprocessing
 
-Shotgun metagenomic sequencing data for six human gut microbiome samples were obtained from publicly available Sequence Read Archive (SRA) datasets through the usage of sra-tools. The dataset consisted of three vegan (SRR8146978, SRR8146977, SRR8146974) and three omnivorous samples  (SRR8146971, SRR8146969, SRR8146936). Data was quality checked through the usage of fastQC to evaluate read quality. Original reads were used for downstream analysis as quality was high.
+Shotgun metagenomic sequencing data for six human gut microbiome samples were obtained from publicly available Sequence Read Archive (SRA) datasets through the usage of sra-tools (v. 3.2.1) (NCBI, 2026). The dataset consisted of three vegan (SRR8146978, SRR8146977, SRR8146974) and three omnivorous samples  (SRR8146971, SRR8146969, SRR8146936). Data was quality checked through the usage of FastQC (v. 0.12.1) (Andrews, 2010) to evaluate read quality. Original reads were used for downstream analysis as quality was high.
 
 ### Taxonomic Classification
 
-Kraken2 was used to classify sequencing reads against the standard Kraken2 database,16 GB version February 2026 release stored on the Canada Compute Nibi cluster. Each sample was processed in paired end mode with a confidence threshold of 0.2, generating both Kraken output files and classification reports. 
+Kraken2 (v. 2.17.1) (Wood et al., 2019) was used to classify sequencing reads against the standard Kraken2 database 16 GB version February 2026 release stored on the Canada Compute Nibi cluster. Each sample was processed in paired end mode with a confidence threshold of 0.2, generating both Kraken output files and classification reports. 
 
 ### Abundance Estimation
 
-To improve abundance estimation, Bracken was applied to Kraken2 output to re-estimate species level abundances using Bayesian models of k-mer distribution (Lu et al., 2017). Parameters were set to read length 150 bp and taxonomic level S for species. Bracken reports generated were combined into a single BIOM format file using kraken-biom (v. 1.2.0). This BIOM file was then imported into R for further analysis.
+To improve abundance estimation, Bracken (v.3.1) was applied to Kraken2 output to re-estimate species level abundances using Bayesian models of k-mer distribution (Lu et al., 2017). Parameters were set to read length 150 bp and taxonomic level S for species. Bracken reports generated were combined into a single BIOM format file using kraken-biom (v. 1.2.0). This BIOM file was then imported into R for further analysis.
 
 ### Import into R
 
@@ -30,7 +30,7 @@ The BIOM file was imported into R using the biomformat (v. 1.36.0) package and c
 
 ### Diversity analysis
 
-Alpha diversity metrics, including Shannon and Simpson indices, were calculated using the plot_richness function from phyloseq to compare sample diversity within dietary groups. Beta diversity was assessed using Bray-Curtis dissimilarity and Jaccard distance metrics, calculated using the vegan package (Oksanen et al., 2026). Principal Coordinates Analysis and Non-metric Multidimensional Scaling were used to depict differences in microbial community composition between samples.
+Alpha diversity metrics, including Shannon and Simpson indices, were calculated using the plot_richness function from phyloseq to compare sample diversity within dietary groups. Beta diversity was assessed using Bray-Curtis dissimilarity and Jaccard distance metrics, calculated using the vegan package (v. 2.7-3) (Oksanen et al., 2026). Principal Coordinates Analysis and Non-metric Multidimensional Scaling were used to depict differences in microbial community composition between samples.
 
 ### Differential abundance testing
 
@@ -145,6 +145,8 @@ National Center for Biotechnology Information (NCBI). (2026). SRA Toolkit. GitHu
 Oksanen, J., Simpson, G. L., Blanchet, F. G., Kindt, R., Legendre, P., Minchin, P. R., ... & Wagner, H. (2025). vegan: Community Ecology Package (Version 2.8-0) [Software]. https://cran.r-project.org/web/packages/vegan/index.html
 
 Panwar, D., Briggs, J., Fraser, A. S. C., Stewart, W. A., & Brumer, H. (2025). Transcriptional delineation of polysaccharide utilization loci in the human gut commensal Segatella copri DSM18205 and co-culture with exemplar Bacteroides species on dietary plant glycans. Applied and environmental microbiology, 91(1), e0175924. https://doi.org/10.1128/aem.01759-24
+
+Wood, D. E., Lu, J., & Langmead, B. (2019). Improved metagenomic analysis with Kraken 2. Genome biology, 20(1), 257. https://doi.org/10.1186/s13059-019-1891-0
 
 Xu, R., Rajeev, S., & Salvador, L. C. M. (2023). The selection of software and database for metagenomics sequence analysis impacts the outcome of microbial profiling and pathogen detection. PloS one, 18(4), e0284031. https://doi.org/10.1371/journal.pone.0284031
 
