@@ -44,7 +44,7 @@ Differential abundance analysis was conducted using ANCOMBC2 (v. 2.13.1), which 
 
 </div>
 
-##### Figure #1:
+##### Figure #1: Rarefaction curve for microbial diversity in vegan and omnivore samples. The curves for all six samples reached a plateau indicating that the sequencing depth was sufficient enough to capture the microbial diversity present in each sample. 
 
 
 Rarefaction curves for all six samples reached a plateau which indicated that sequencing depth was sufficient for this data and therefore suggesting that the majority of microbial diversity present in each sample was captured. This confirms that the data contains enough information for further analysis.
