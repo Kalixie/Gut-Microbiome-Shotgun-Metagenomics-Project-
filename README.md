@@ -116,6 +116,34 @@ Overall, while some microbiota differences were observed visually through abunda
 
 ## References 
 
+Al-Refai, W., Keenan, S., Camera, D. M., & Cooke, M. B. (2025). The Influence of Vegan, Vegetarian, and Omnivorous Diets on Protein Metabolism: A Role for the Gut-Muscle Axis?. Nutrients, 17(7), 1142. https://doi.org/10.3390/nu17071142
+
+Arumugam, M., Raes, J., Pelletier, E., Le Paslier, D., Yamada, T., Mende, D. R., Fernandes, G. R., Tap, J., Bruls, T., Batto, J. M., Bertalan, M., Borruel, N., Casellas, F., Fernandez, L., Gautier, L., Hansen, T., Hattori, M., Hayashi, T., Kleerebezem, M., Kurokawa, K., … Bork, P. (2011). Enterotypes of the human gut microbiome. Nature, 473(7346), 174–180. https://doi.org/10.1038/nature09944
+
+Daley SF, Hinson MR. Mediterranean Diet. [Updated 2026 Jan 10]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK557733/
+
+Fackelmann, G., Manghi, P., Carlino, N., Heidrich, V., Piccinno, G., Ricci, L., Piperni, E., Arrè, A., Bakker, E., Creedon, A. C., Francis, L., Capdevila Pujol, J., Davies, R., Wolf, J., Bermingham, K. M., Berry, S. E., Spector, T. D., Asnicar, F., & Segata, N. (2025). Gut microbiome signatures of vegan, vegetarian and omnivore diets and associated health outcomes across 21,561 individuals. Nature microbiology, 10(1), 41–52. https://doi.org/10.1038/s41564-024-01870-z
+
+Johnson, E. L., Heaver, S. L., Walters, W. A., & Ley, R. E. (2017). Microbiome and metabolic disease: revisiting the bacterial phylum Bacteroidetes. Journal of molecular medicine (Berlin, Germany), 95(1), 1–8. https://doi.org/10.1007/s00109-016-1492-2
+
+Kumar, S., Mukherjee, R., Gaur, P., Leal, É., Lyu, X., Ahmad, S., Puri, P., Chang, C. M., Raj, V. S., & Pandey, R. P. (2025). Unveiling roles of beneficial gut bacteria and optimal diets for health. Frontiers in microbiology, 16, 1527755. https://doi.org/10.3389/fmicb.2025.1527755
+
+Lin, H., & Peddada, S. D. (2023). Multi-group Analysis of Compositions of Microbiomes with Covariate Adjustments and Repeated Measures. Research square, rs.3.rs-2778207. https://doi.org/10.21203/rs.3.rs-2778207/v1
+
+Lu, J., Breitwieser, F. P., Thielen, P., & Salzberg, S. L. (2017). Bracken: estimating species abundance in metagenomics data. PeerJ. Computer science, 3, e104. https://doi.org/10.7717/peerj-cs.104
+
+McMurdie, P. J., & Holmes, S. (2013). phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data. PloS one, 8(4), e61217. https://doi.org/10.1371/journal.pone.0061217
+
+Muñoz-Yáñez, C., Méndez-Hernández, A., González-Galarza, F. F., Prieto-Hinojosa, A. I., & Guangorena-Gómez, J. O. (2025). Diet Quality Modulates Gut Microbiota Structure in Blastocystis-Colonised Individuals from Two Distinct Cohorts with Contrasting Sociodemographic Profiles. Microorganisms, 13(8), 1949. https://doi.org/10.3390/microorganisms13081949
+
+Oksanen, J., Simpson, G. L., Blanchet, F. G., Kindt, R., Legendre, P., Minchin, P. R., ... & Wagner, H. (2025). vegan: Community Ecology Package (Version 2.8-0) [Software]. https://cran.r-project.org/web/packages/vegan/index.html
+
+Panwar, D., Briggs, J., Fraser, A. S. C., Stewart, W. A., & Brumer, H. (2025). Transcriptional delineation of polysaccharide utilization loci in the human gut commensal Segatella copri DSM18205 and co-culture with exemplar Bacteroides species on dietary plant glycans. Applied and environmental microbiology, 91(1), e0175924. https://doi.org/10.1128/aem.01759-24
+
+Xu, R., Rajeev, S., & Salvador, L. C. M. (2023). The selection of software and database for metagenomics sequence analysis impacts the outcome of microbial profiling and pathogen detection. PloS one, 18(4), e0284031. https://doi.org/10.1371/journal.pone.0284031
+
+Zhang P. (2022). Influence of Foods and Nutrition on the Gut Microbiome and Implications for Intestinal Health. International journal of molecular sciences, 23(17), 9588. https://doi.org/10.3390/ijms23179588
+
 
 
  
